@@ -99,14 +99,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
 }
 .hero-btn {
   color: var(--main-background-color);
@@ -114,18 +108,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: var(--cursor);
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
   cursor: pointer;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  margin-top: 350px;
-  margin-left: 692px;
 }
 
 .benefit-text {
@@ -136,6 +123,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .benefits-list,
 .makeing-list,
 .team-list,
@@ -143,6 +131,7 @@ body {
 .button-portfolio {
   list-style: none;
 }
+
 .ben-pref {
   font-weight: 400;
   font-size: 14px;
@@ -150,6 +139,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
+
 .makeing-item {
   color: var(--main-color-text);
   font-weight: 700;
@@ -165,6 +155,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 .team-name {
   color: #212121;
   font-weight: 500;
@@ -172,6 +163,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 .team-prof {
   color: var(--color-text);
   font-weight: 400;
@@ -181,6 +173,7 @@ body {
 }
 
 /* footer */
+
 .foot {
   background-color: var(--background-hero-footer);
   width: 1600px;
@@ -208,6 +201,7 @@ body {
 .addres-list {
   list-style: none;
 }
+
 .addres {
   margin-left: 215px;
 }
@@ -223,6 +217,7 @@ body {
 }
 
 /* Portfolio */
+
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -240,6 +235,7 @@ body {
   border-radius: 4px;
   border-color: var(--cursor);
 }
+
 .project-name {
   background-color: var(--main-background-color);
   color: var(--main-color-text);
