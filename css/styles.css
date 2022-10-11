@@ -155,7 +155,6 @@ body {
 
 .makeing-item {
   color: var(--main-color-text);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -164,7 +163,6 @@ body {
 
 .team-item {
   color: var(--main-color-text);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -234,7 +232,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color-text);
 }
-
+.portfolio-btn {
+  background-color: var(--baskground-team);
+  border-radius: 4px;
+  border-color: var(--baskground-team);
+}
 .portfolio-btn:hover,
 :focus {
   color: var(--main-background-color);
@@ -248,7 +250,6 @@ body {
 .project-name {
   background-color: var(--main-background-color);
   color: var(--main-color-text);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
