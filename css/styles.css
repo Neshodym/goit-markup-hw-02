@@ -88,7 +88,6 @@ body {
   color: var(--cursor);
   background-color: inherit;
 }
-
 .hero {
   background-color: var(--background-hero-footer);
 }
@@ -103,7 +102,7 @@ body {
 }
 .hero-btn {
   color: var(--main-background-color);
-  background-color: #2196f3;
+  background-color: var(--cursor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: var(--cursor);
@@ -114,8 +113,20 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+:focus {
   color: var(--logo-part-color);
+}
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .benefit-text {
   color: var(--main-color-text);
