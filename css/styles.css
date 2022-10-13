@@ -224,14 +224,6 @@ body {
 }
 
 /* Portfolio */
-
-.button-portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--main-color-text);
-}
 .portfolio-btn {
   color: var(--main-color-text);
   background-color: var(--baskground-team);
@@ -245,6 +237,14 @@ body {
   letter-spacing: 0.03em;
   padding: 6px 22px;
 }
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--main-color-text);
+}
+
 .portfolio-btn:hover,
 :focus {
   color: var(--main-background-color);
